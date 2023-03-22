@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Trivia</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <p>Ingresa tu nombre para comenzar</p>
+  <input class="input-text" type="text" name="" id="name" placeholder="Escribe tu Nombre Aqui">
+  <button class="btn" onclick="start()">COMENZAR</button>
+
+  <h1>Trivia de comida chilena</h1>
+<div class="img" id="flag">
+  <img src=https://www.pngall.com/wp-content/uploads/2016/05/Chile-Flag-PNG-Clipart.png> </div>
+  <div class="box">
+    <h2>Que plato no corresponde a la gastronomia chilena?</h2>
+    <div class="preguntas">
+      <div>
+        <input class="view" id="wrong" type="radio" name="pregunta1" value="Porotos">
+        <label for="a1">Porotos</label>
+      </div>
+
+      <div>
+        <input class="view" id="wrong" type="radio" name="pregunta1" value="Cazuela">
+        <label for="a2">Cazuela</label>
+      </div>
+
+      <div>
+        <input class="view"  id="correct" type="radio" name="pregunta1" value="Arepa">
+        <label for="a3">Arepa</label>
+      </div>
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>Que ingredientes no estan presentes en la Cazuela?</h2>
+    <div class="preguntas">
+      <div>
+        <input class="view" id="correct" type="radio" name="pregunta2" value="Queso">
+        <label for="b1">Queso</label>
+      </div>
+
+      <div>
+        <input class="view" id="wrong" type="radio" name="pregunta2" value="Papa">
+        <label for="b2">Papa</label>
+      </div>
+
+      <div>
+        <input class="view"  id="wrong" type="radio" name="pregunta3" value="Zanahoria">
+        <label for="b3">Zanahoria</label>
+      </div>
+    </div>
+  </div>
+
+   <div class="respuesta">
+     
+    
+     <button id="send">Enviar</button>
+   </div>
+  
+<script src="script.js">
+//crear otro boton para reiniciar el juego donde se vuelve a la pantalla donde se escribe el nombre
+   
+</body>
+
+</html>
