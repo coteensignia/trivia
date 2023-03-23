@@ -8,7 +8,7 @@ function start() {
   let nombre = document.getElementById("name").value
   register.style.display = "none";
   trivia.style.display = "block";
-  alert(nombre + " " + "elige las dos alternativas correctas para ganar");
+  alert("Hola"+ " " + nombre + " " + "Para jugar, debes escoger las dos alternativas correctas que se mostraran a continuacion");
 }
 // al hacer click le pegamos los estilos para que se vea o no, llamando a las constantes de arriba
 //v:excelente :) cote
