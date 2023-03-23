@@ -11,17 +11,23 @@ function start() {
   alert(nombre + " " + "elige las dos alternativas correctas para ganar");
 }
 // al hacer click le pegamos los estilos para que se vea o no, llamando a las constantes de arriba
+//v:excelente :) cote
 
 let boton = document.getElementById("send")
 boton.addEventListener("click",send)
 function send() {
   if (document.getElementById("correct").checked)
-    alert('Felicidades! Arepa y Papa son las respuestas correcta');
-  
+    alert('Felicidades! Arepa y Papa son las respuestas correcta');  
   else 
     alert ("Tu respuesta es incorrecta, intentalo nuevamente");
 }
 
+function reset() {
+  location.reload();
+  
+}
+
 // erfectooo lo entendi ....tenemos que meter esta funcion que la haga un bton....lo unico que cuandoncargas como que aparece entero yo creo que deberiamos hacerlo con el inner que dojeron ellos ademas por que... ese hace un recorrido por todo el html
-//crear otro boton para reiniciar el juego donde se vuelve a la pantalla donde se escribe el nombre
-//document.getElementById("flag").style.display = "none"
+//V: falta crear otro boton para reiniciar el juego donde se vuelve a la pantalla donde se escribe el nombre LISTO!
+
+//v:cote, ahora estoy trabajando en el read.md  para documentar el proceso, lo agregue a file

@@ -65,6 +65,15 @@ p {
   width: fit-content;
 }
 
+.reinicio .btnr {
+  border-radius:50px;
+  padding: 5px 10px;
+  background-color: #51bb31;
+  border: none;
+  color:#feffff;
+  width: fit-content;
+}
+
 
 .trivia {
   gap:20px;
