@@ -13,6 +13,7 @@ html {
   
 }
 
+
 body{
   height: auto;
   width: 100%;
@@ -21,6 +22,14 @@ body{
   flex-direction: column;
   flex-wrap: wrap;
 }
+
+.img {
+  text-align: center;
+   }
+.img img {
+  width: 50%;
+   }
+  
 
 .register {
   gap:20px;
@@ -88,6 +97,7 @@ h2 {
 
 .box{
     padding:20px;
+   text-align: center;
 }
 
 .preguntas{
@@ -95,6 +105,7 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 50px;
+  
 }
 
 .respuesta {
